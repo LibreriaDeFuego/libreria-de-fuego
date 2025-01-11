@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería de Fuego</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/assets/logo.png" alt="Librería de Fuego">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Bienvenidos a Librería de Fuego</h1>
+        <p>Un espacio dedicado a la pasión por los libros y la comunidad en Frutillar Alto. Explora, descubre y enamórate de nuestras colecciones cuidadosamente seleccionadas.</p>
+    </section>
+
+    <section id="catalogo">
+        <h2>Catálogo</h2>
+        <div class="categorias">
+            <div class="categoria">
+                <h3>Juvenil</h3>
+                <p>Explora aventuras y romances inolvidables.</p>
+            </div>
+            <div class="categoria">
+                <h3>Romance Adulto</h3>
+                <p>Historias apasionadas para corazones valientes.</p>
+            </div>
+            <div class="categoria">
+                <h3>Autores Chilenos</h3>
+                <p>Conoce lo mejor de la literatura nacional.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="eventos">
+        <h2>Eventos</h2>
+        <p>Descubre los próximos eventos culturales y actividades que tenemos preparados para ti.</p>
+        <ul>
+            <li><strong>Los Conciertecitos:</strong> Música, conversación y libros en armonía.</li>
+            <li><strong>Partidas de rol:</strong> Aventuras inolvidables en la noche.</li>
+            <li><strong>Lanzamientos de libros:</strong> Conoce a los autores y sus obras.</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes preguntas o comentarios? ¡Nos encantaría saber de ti!</p>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Librería de Fuego. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
